@@ -30,6 +30,9 @@ export default {
 import BarChart from '~/components/bar-chart'
 
 export default {
+  components: {
+    BarChart
+  },
   data:() => {(
     lineData: {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
