@@ -22,7 +22,7 @@ export default {
 ```
 <template>
   <div>
-    <bar-chart :data="lineData" :options="ratio"></bar-chart>
+    <bar-chart :data="lineData" :options="options"></bar-chart>
   </div>
 </template>
 
