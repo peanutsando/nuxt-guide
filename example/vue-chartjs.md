@@ -50,3 +50,6 @@ export default {
 
 </script>
 ```
+
+3. graph property
+[property](http://www.chartjs.org/docs/latest/)
