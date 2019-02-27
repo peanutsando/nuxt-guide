@@ -1,10 +1,31 @@
 # Official Documents
-[vue-i18n](http://kazupon.github.io/vue-i18n/en/)
+[vue-i18n](http://kazupon.github.io/vue-i18n/)
 
 # Example
 
-1. plugins
+1. Easy Usage(Use Vue Cli 3.x) => Promote
+```
+vue add i18n
+```
 
+2. Installation
+```
+npm install vue-i18n
+# yarn add vue-i18n
+```
+
+3. Plugins / Vue Setting
+### main.js
+```
+import i18n from './i18n
+
+new Vue({
+  ...
+  i18n,
+  ...
+ })
+```
+### plugins
 ```
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
@@ -34,7 +55,7 @@ export default ({ app, store }) => {
 }
 ```
 
-2. Language json file
+4. Language json file
 
 ```
 {
@@ -54,11 +75,11 @@ export default ({ app, store }) => {
 ```
 Or you can manage it with individual files.
 
-3. vuex-store
+5. vuex-store
 
 ```
 export const state = () => ({
-  locales: ['en', 'fr'],
+  locales: ['en', 'ko'],
   locale: 'en'
 })
 
